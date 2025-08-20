@@ -1,0 +1,35 @@
+{
+	"name": "ts-sqlite-api",
+	"version": "1.0.0",
+	"description": "Node.js API showcasing native TypeScript and SQLite support for CRUD operations",
+	"main": "server.js",
+	"scripts": {
+		"start": "node --env-file=.env --no-warnings ./src/server.ts",
+		"dev": "node --watch --env-file=.env --no-warnings ./src/server.ts",
+		"format": "npx @biomejs/biome format --write .",
+		"lint": "npx @biomejs/biome lint --write .",
+		"check": "npx @biomejs/biome check --write ."
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/viccios/node-ts-sqlite-api.git"
+	},
+	"author": "Vinícius Nunes de Oliveira",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/viccios/node-ts-sqlite-api/issues"
+	},
+	"homepage": "https://github.com/viccios/node-ts-sqlite-api#readme",
+	"type": "module",
+	"imports": {
+		"#*": "./src/*"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.2.0",
+		"@types/express": "^5.0.3",
+		"@types/node": "^24.3.0"
+	},
+	"dependencies": {
+		"express": "^5.1.0"
+	}
+}
