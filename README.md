@@ -1,5 +1,17 @@
 # Products API — Node.js + TypeScript + SQLite template
 
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+
+## 📋 Summary
+* [About](#-about)
+   * [Why?](#why)
+* [Features](#-features)
+* [Quick start](#-quick-start)
+* [Directory structure](#-directory-structure)
+* [Scripts (package.json)](#-scripts-packagejson)
+* [Examples](#-examples)
+* [License](#-license)
+
 ## 🧠 About
 
 A small, simple Node.js + Express API demonstrating native TypeScript and
